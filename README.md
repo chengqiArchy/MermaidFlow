@@ -5,7 +5,7 @@ Welcome to the MermaidFlow project! This project provides a method to automatica
 ## Project Structure
 
 - `MermaidFlow_Linter/`  
-  Tools for checking and validating Mermaid flowcharts.
+  Tools for checking and validating Mermaid flowcharts. https://github.com/ChengqiCodeTrip/MermaidFlow_Linter.git
 - `config/`  
   Stores model and LLM configuration files (such as `config2.yaml`).
 - `run.py`  
