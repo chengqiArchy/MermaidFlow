@@ -2,3 +2,4 @@
 .vscode/
 logs/
 uv.lock
+config/
