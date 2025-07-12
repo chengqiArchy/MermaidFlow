@@ -1,0 +1,6 @@
+[submodule "MermaidFlow_Linter"]
+    path = MermaidFlow_Linter
+    url = https://github.com/ChengqiCodeTrip/MermaidFlow_Linter.git
+[submodule "weave_version_for_mermaidflow"]
+    path = weave_version_for_mermaidflow
+    url = https://github.com/ChengqiCodeTrip/weave_version_for_mermaidflow.git
