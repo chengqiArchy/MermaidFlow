@@ -1,0 +1,27 @@
+flowchart TD
+    %% Nodes
+    PROBLEM([Problem])
+    ENTRY_POINT([entry_point])
+    C["CustomCodeGenerate<br/>(instruction: simple_solver_1)"]
+    ENSEMBLE["ScEnsemble<br/>"]
+    RETURN([Return response & cost])
+
+    %% Styles
+    classDef CustomOp fill:#d0e1f9,stroke:#4378a2,stroke-width:2px;
+    classDef CustomCodeGenerateOp fill:#f9c2c2,stroke:#c23737,stroke-width:2px;
+    classDef ScEnsembleOp    fill:#f9e4b7,stroke:#b99b37,stroke-width:2px;
+    classDef DecisionOp fill:#ffffff,stroke:#444444,stroke-width:1px,stroke-dasharray:2 2;
+    classDef TestOp  fill:#d8f0d8,stroke:#2e8b57,stroke-width:2px;
+    classDef Interface  fill:#e2e2f2,stroke:#6a6ab2,stroke-width:2px;
+
+    %% Assign classes
+    class PROBLEM Interface
+    class ENTRY_POINT Interface
+    class C CustomCodeGenerateOp
+    class RETURN Interface
+
+    %% Flow (arrows show data relationships)
+    PROBLEM --> |input|C
+    ENTRY_POINT --> |entry_point|C
+    C --> ENSEMBLE
+    ENSEMBLE --> RETURN

@@ -1,0 +1,22 @@
+flowchart TD
+    %% Nodes
+    PROBLEM([Problem])
+    C["Custom<br/>(role: simple_solver_1)"]
+    ENSEMBLE["ScEnsemble<br/>"]
+    RETURN([Return response & cost])
+
+    %% Styles
+    classDef CustomOp fill:#d0e1f9,stroke:#4378a2,stroke-width:2px;
+    classDef ProgramOp fill:#f9c2c2,stroke:#c23737,stroke-width:2px;
+    classDef ScEnSembleOp    fill:#f9e4b7,stroke:#b99b37,stroke-width:2px;
+    classDef Interface fill:#e2e2f2,stroke:#6a6ab2,stroke-width:2px;
+
+    %% Assign classes
+    class C CustomOp
+    class PROBLEM Interface
+    class RETURN Interface
+
+    %% Flow (arrows show data relationships)
+    PROBLEM --> |input|C
+    C --> ENSEMBLE
+    ENSEMBLE --> RETURN
