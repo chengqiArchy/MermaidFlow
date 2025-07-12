@@ -25,12 +25,9 @@ Welcome to the MermaidFlow project! This project provides a method to automatica
    curl -LsSf https://astral.sh/uv/0.7.7/install.sh | sh
    ```
 
-   Next, you should pull wave first then create environment directly from uv:
-
+   Next you should pull the submodules:
    ```bash
-   git clone https://github.com/ChengqiCodeTrip/weave_version_for_mermaidflow.git
-   uv venv --python=python3.10
-   uv run
+   git submodule update --remote
    ```
 
    In addition, you need to install the Mermaid CLI (`mmdc`), which is used to render Mermaid flowchart code into images. You can follow the official documentation for installation instructions: https://github.com/mermaid-js/mermaid-cli
