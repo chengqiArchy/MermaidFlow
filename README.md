@@ -27,6 +27,7 @@ Welcome to the MermaidFlow project! This project provides a method to automatica
 
    Next you should pull the submodules:
    ```bash
+   git submodule init
    git submodule update --remote
    ```
 
