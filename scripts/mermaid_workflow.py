@@ -133,7 +133,7 @@ Carefully analyze the new_graph to generate corresponding code. Pay attention to
 3. The input/output relationships
 
 For each node in the graph, implement the appropriate code and use the corresponding prompts from new_prompt. If a node or operator doesn't have an explicit prompt provided, DO NOT create one - use empty strings instead. For example, Program operators may have empty analysis fields.
-Every prompt referenced in your Python code must be defined in the prompt_custom module. When adding new functionality to your Python code, make sure to import any necessary libraries or modules, except for operator, prompt_custom, create_llm_instance, and CostManage which are automatically imported.
+Every prompt referenced in your Python code must be defined in the prompt_custom module. If you find that new_role_prompt is missing some prompts, please ensure they are properly created. When adding new functionality to your Python code, make sure to import any necessary libraries or modules, except for operator, prompt_custom, create_llm_instance, and CostManage which are automatically imported.
 Your implementation must be robust - ensure all methods return appropriate values and **never return None for any field**. Pay special attention to error handling and edge cases.
 Use custom methods with proper formatting to ensure your output matches the expected structure. The system will extract answers based on specific rules for scoring, so maintaining the correct output format is critical.
 
