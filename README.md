@@ -72,3 +72,18 @@ Welcome to the MermaidFlow project! This project provides a method to automatica
    - `--validation_rounds 2`: Runs validation every 2 rounds.
 
 > You should have weave account
+## Citation
+If you find this repo useful, please consider citing our paper as follows:
+```bibtex
+@article{zheng2025mermaidflow,
+  title={MermaidFlow: Redefining Agentic Workflow Generation via Safety-Constrained Evolutionary Programming},
+  author={Zheng, Chengqi and Chen, Jianda and Lyu, Yueming and Ng, Wen Zheng Terence and Zhang, Haopeng and Ong, Yew-Soon and Tsang, Ivor and Yin, Haiyan},
+  journal={arXiv preprint arXiv:2505.22967},
+  year={2025}
+}
+```
+## Acknowledgement
+
+Special thanks to the following repositories for their invaluable code and prompt.
+
+Our prompt is partially adapted from [AFLOW](https://github.com/geekan/MetaGPT/tree/main/examples/aflow). Our code and operators are partially adapted from [AFLOW](https://github.com/geekan/MetaGPT/tree/main/examples/aflow).
