@@ -2,6 +2,11 @@
 
 Welcome to the MermaidFlow project! This project provides a method to automatically genearte workflow, plan in Mermaid field and run in python field. 
 
+## News
+
+- Updates (2025-06-13) MermaidFlow is accepted as **ICML'25 workshop on Multi-agent System**!
+- Updates (2025-05-30) Initial upload to arXiv (see [PDF](https://arxiv.org/abs/2505.22967)).
+
 ## Project Structure
 
 - `MermaidFlow_Linter/`  
