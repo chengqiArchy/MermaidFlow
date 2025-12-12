@@ -5,6 +5,8 @@ Welcome to the MermaidFlow project! This project provides a method to automatica
 ## News
 
 - **BIG NEWS (2025-12-10)** **Cursor is currently using Mermaid to represent workflow and planning workflow.** 🔥🔥🔥🔥
+  - <img width="774" height="626" alt="image" src="https://github.com/user-attachments/assets/3700db4f-8217-49e8-8b5d-00ede357fc03" />
+
 - Updates (2025-06-13) MermaidFlow has been accepted to the **ICML 2025 Workshop on Multi-Agent Systems**!
 - Updates (2025-05-30) Initial upload to arXiv (see [PDF](https://arxiv.org/abs/2505.22967)).
 
